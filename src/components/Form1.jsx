@@ -500,8 +500,7 @@ import { useNavigate } from "react-router-dom";
 import { VendorContext } from "../context/VendorContext";
 import { UserContext } from "../context/UserContext";
 // import "../Styles/Form1.css";
-import Sidebar from "./Sidebar";
-
+import Sidebar from "../components/Sidebar";
 function Form1() {
   const navigate = useNavigate();
   const vendorContext = useContext(VendorContext);
