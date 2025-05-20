@@ -8,7 +8,7 @@ import ScrollCards from "../components/ScrollCards";
 import WorkflowSection from "../components/WorkflowSection";
 import ContactForm from "../components/ContactForm";
 import Staytuned from "../components/Staytuned";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import "../styles/HomePage.css";
 
 const HomePage = () => {
