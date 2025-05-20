@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/fix-motion-utils.js",
     "build": "vite build",
     "preview": "vite preview"
   },
