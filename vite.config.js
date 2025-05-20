@@ -16,7 +16,7 @@ export default defineConfig({
   },
   optimizeDeps: {
     include: ['buffer', 'process'],
-    exclude: ['motion-utils'],
+    exclude: [],
   },
   build: {
     rollupOptions: {
